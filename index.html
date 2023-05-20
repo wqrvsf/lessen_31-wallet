@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <title>WALLET</title>
 </head>
+
 <body>
     <div class="wrapper">
         <header class="header">
@@ -54,24 +56,24 @@
                             <td class="name">Бургер</td>
                             <td class="category">ФастФуд</td>
                             <td class="price">500</td>
-                            <td>✖</td>
+                            <td class="del">✖</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
             <div class="main__column" id="editor-column">
-                <form class="editor">
+                <form class="editor" name="form">
                     <div class="editor__row">
                         <p class="editor__input-name">Товар:</p>
-                        <input type="text" class="editor__input" name="" placeholder="Наименование">
+                        <input type="text" class="editor__input" name="name" placeholder="Наименование">
                     </div>
                     <div class="editor__row">
                         <p class="editor__input-name">Цена:</p>
-                        <input type="text" class="editor__input" name="" placeholder="0">
+                        <input type="text" class="editor__input" name="price" placeholder="0">
                     </div>
                     <div class="editor__row-categoty">
                         <p class="editor__input-name">Категория:</p>
-                        <select class="editor__select" name="" id="selectCategory" name="">
+                        <select class="editor__select" name="category" id="selectCategory">
                             <option value="product">ФастФуд</option>
                             <option value="product">Продукты</option>
                             <option value="product">Спорт</option>
@@ -87,4 +89,5 @@
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
